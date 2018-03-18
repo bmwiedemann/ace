@@ -1,7 +1,8 @@
 name: ACE
 version: 5.2
-date: 11/03/2016
-description: Advanced Coset Enumerator
+date: 2016-03-11
+description: |
+    Advanced Coset Enumerator
 
 authors:
     - name: Greg Gamble
@@ -22,14 +23,15 @@ maintainers:
 GAP: ">= 4.7"
 
 www: https://gap-packages.github.io/ace
-readme: https://gap-packages.github.io/ace/README
+readme: README
 packageinfo: https://gap-packages.github.io/ace/PackageInfo.g
 
 downloads:
     - name: .tar.gz
       url: https://github.com/gap-packages/ace/releases/download/v5.2/ace-5.2.tar.gz
 
-abstract: The <span class="pkgname">ACE</span> package provides both an    interactive and non-interactive interface with the Todd-Coxeter coset   enumeration functions of the ACE (Advanced Coset Enumerator) C program.
+abstract: |
+    The <span class="pkgname">ACE</span> package provides both an    interactive and non-interactive interface with the Todd-Coxeter coset   enumeration functions of the ACE (Advanced Coset Enumerator) C program.
 
 status: accepted
 doc-html: htm/chapters.htm
